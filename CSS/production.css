@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.productions-class-btn-field {
+    padding: 10% 0 0 10%;
+    display: flex;
+    gap: 4%;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.production-class-field {
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    margin-bottom: 2%;
+}
+
+.board-class-btn {
+    background-color: transparent;
+    color:#26A69A;
+    border:1.1px solid #26A69A;
+    width: 10rem;
+    font-size: 1.1rem;
+    padding: 3% 10%;
+    border-radius:150px;
+    letter-spacing: 3px;
+    transition: 0.3s;
+}
+.board-class-btn:hover {
+    background-color: #26A69A;
+    color:#fff;
+    box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.3);
+    transform: scale(0.9);
+}
+.board-class-btn-checked {
+    background-color: #26A69A;
+    color:#fff;
+    border:none;
+    width: 10rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 3% 20%;
+    border-radius:150px;
+    letter-spacing: 3px;
+    box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+.board-class-btn-checked :hover {
+    transform: scale(0.9);
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.shop-process-field {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap:2rem;
+    padding-left: 1%;
+}
+.shop-process-field .go-back-btn{
+    width: 6rem;
+    border:none;
+    background-color: black;
+    border-radius: 100px;
+    padding: 3% 20%;
+    font-size: 1rem;
+    transition: 0.3s;
+    box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.3);
+}
+.shop-process-field .go-back-btn:hover {
+    transform: scale(0.9);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
+}
+.shop-process-field  a {
+    text-align: center;
+    text-decoration:none;
+    color: #fff;
+}
+.next-step-btn {
+    width: 8rem;
+    border:none;
+    background-color: #26A69A;
+    border-radius: 100px;
+    padding: 3% 10%;
+    font-size: 1rem;
+    box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+.next-step-btn:hover {
+    transform: scale(0.9);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
+}
+/* production card list */
+.production-card-container {
+    margin-right: 8%;
+}
+.production-card-row {
+    display: flex;
+    gap: 6%;
+}
+.production-card {
+    width: 270px;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    background-color: #26A69A;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.4s;
+}
+.production-card:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 0px 25px 9px rgba(0, 0, 0, 0.4);
+}
+.product-img {
+    width: 92%;
+    height: 62%;
+
+}
+.product-img img {
+    width: 100%;
+    height: 100%;
+}
+.production-content {
+    color:#fff;
+    padding: 5% 10%;
+    text-align: center;
+}
+.production-footer {
+    display: flex;
+    gap:7%
+}
+.production-footer > p {
+    font-size: 0.6rem;
+}
+.production-name {
+    font-size: 0.9rem;
+}
+.add-cart-btn  {
+    border-radius: 50px;
+    padding: 2% 8%;
+    font-size: 0.6rem;
+    background-color: #fff;
+    border: none;
+    transition: 0.4s;
+}
+.add-cart-btn:hover {
+    transform: scale(0.9);
+}
+.change-product-page-field {
+    display: flex;
+    gap: 13rem;
+    margin: 3% auto 5% 1%;
+    
+}
+.change-product-page-btn {
+    display: flex;
+}
+.change-product-page-btn button {
+    width: 4.5rem;
+    padding: 0.7rem;
+    border:none;
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.4);
+}
+.change-page-left-btn{
+    background-color: #fff;
+    color:#26A69A;
+    transition: 0.3s;
+}
+.change-page-right-btn {
+    color: #fff;
+    background-color:#26A69A;
+    transition: 0.3s;
+}
+.change-page-left-btn:hover {
+    transform:scale(0.9);
+    box-shadow:0 8px 20px rgba(0,0,0,0.4);
+}
+.change-page-right-btn:hover {
+    transform:scale(0.9);
+    box-shadow:0 8px 20px rgba(0,0,0,0.4);
+}
+.page-num {
+    display: flex;
+    gap: 1rem;
+}
+.page-num span {
+    display: inline-block;
+    font-size: 0.75rem;
+    text-align: center;
+    font-weight: 500;
+    color:#A09E9E;
+    padding: 0.4rem 0;
+}
+.page-num .checked-page {
+    padding: 0;
+    font-size: 1.4rem;
+    color:#26A69A;
+    font-weight: 800;
+}

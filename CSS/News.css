@@ -1,0 +1,127 @@
+.news-list-field {
+    padding: 4% 12.5%;
+}
+.news-list-title {
+    font-size:3.2rem;
+    font-weight: 800;
+    padding-bottom: 1%;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 0;
+    color: #313131;
+}
+.news-item {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 2%;
+}
+.news-date {
+    font-size:0.6rem;
+    color: #C0B9B9;
+    margin: 1% 2% 0 0;
+}
+.news-cover-img  {
+    width: 40%;
+    margin: 1% 2% 0 1%; 
+}.news-cover-img img {
+    width: 100%;
+    height: 100%;
+
+}
+.news-content {
+    margin-top: 1%;
+}
+.news-content-title {
+    margin: 0 0 1% 0;
+    color: #1D2B53;
+}
+.news-content > p {
+    margin: 1% 0 7%;
+    font-size:0.9rem;
+    color:#1D2B53;
+}
+.read-more-btn {
+    text-decoration:none;
+    color:#C0B9B9;
+    margin-left: 83.1%;
+}
+.change-page-field {
+    display: flex;
+    margin: 4rem 1rem auto 0;
+    gap:5rem;
+}
+.change-page-btn {
+    display: flex;
+}
+.change-page-btn button {
+    width: 4.5rem;
+    padding: 0.7rem;
+    border:none;
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.4);
+}
+.change-page-left-btn{
+    background-color: #fff;
+    color:#26A69A;
+    transition: 0.3s;
+}
+.change-page-right-btn {
+    color: #fff;
+    background-color:#26A69A;
+    transition: 0.3s;
+}
+.change-page-left-btn:hover {
+    transform:scale(0.9);
+    box-shadow:0 8px 20px rgba(0,0,0,0.4);
+}
+.change-page-right-btn:hover {
+    transform:scale(0.9);
+    box-shadow:0 8px 20px rgba(0,0,0,0.4);
+}
+.surfing-page-num {
+    display: flex;
+    gap: 1rem;
+    margin-left: 31%;
+}
+.surfing-page-num span {
+    display: inline-block;
+    font-size: 0.75rem;
+    text-align: center;
+    font-weight: 500;
+    color:#A09E9E;
+    padding: 0.4rem 0;
+}
+.surfing-page-num .checked-page {
+    padding: 0;
+    font-size: 1.4rem;
+    color:#26A69A;
+    font-weight: 800;
+}
+/* 最新消息內頁 */
+.news-para-field {
+    padding: 4% 12.5% 0 12.5%;
+    margin-bottom: 8%;
+}
+.news-para-field > img {
+    width: 100%;
+    margin: 2% 0 2% 0;
+}
+.news-para-title {
+    font-size:1.5rem;
+    font-weight: 800;
+    margin:0 0 0.2% 0;
+    color: #1D2B53;
+}
+.news-para-date {
+    margin: 0;
+    font-size: 0.6rem;
+    color: #C0B9B9;
+    font-weight: 600;
+}
+.news-para {
+    font-size: 0.9rem;
+    color:#1D2B53;
+}
+.return-btn {
+    text-decoration:none;
+    color:#C0B9B9;
+    margin:10% 0 0 93%;
+}

@@ -1,0 +1,115 @@
+body {
+    background-image: url(../images/login-image/Login-bg-img.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+nav {
+    padding: 1px 1%;
+}
+.logo-img {
+    margin-top: 0.1%;
+    margin-left: 48%;
+}
+.login-field-section {
+    background-color: #F5F5F5;
+    margin: 10% 10%;
+    border-radius: 20px;
+    position: relative;
+}
+label {
+    position: relative;
+}
+input {
+    display: block;
+    margin-bottom: 4%;
+    width: 40%;
+    height: 4rem;
+    background-color: #EAEEED;
+    border:none;
+    outline: none;
+    padding: 0 5%;
+    border-radius: 5px;
+}
+.login-field {
+    padding:2% 12% ;
+    
+}
+.login-field > h2 {
+    color:#09A99B;
+    font-size: 2rem;
+    margin-left:18% ;
+}
+.fa-solid {
+    position: absolute;
+    top:1.4rem;
+    left: 0.6rem;
+}
+.login-field >:nth-child(4) {
+    margin-left: 17%;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color:#A09E9E;
+}
+.login-alter-way {
+    padding: 0% 14%;
+    margin-top: 3%;
+    display: flex;
+    gap: 10%;
+}
+.login-alter-way >a  img{
+    width: 2rem;
+}
+.login-btn-field {
+    margin: 8% 65% 8% 10%;
+    background-color: #09A99B;
+    padding: 2% 6.4%;
+    border-radius: 100px;
+    transition: 0.4s;
+}
+.login-btn-field a {
+    text-decoration: none;
+    color:#fff;
+}
+.login-btn-field:hover {
+    transform: scale(0.9);    
+}
+.login-aside-bar > h2 {
+    font-size: 2.1rem;
+    color:#fff;
+}
+.login-aside-bar > p {
+    font-size: 1rem;
+    margin: 20% 10%;
+    color:#fff;
+    font-weight: 200;
+}
+.login-aside-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* height: 98.4%; */
+    text-align: center;
+    padding: 10% 5% 0 5%;
+    background-image: url(../images/login-image/login-aside-bar-img.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-top-right-radius:inherit;
+    border-bottom-right-radius:inherit ;
+}
+.sign-up-btn-field {
+    background-color: transparent;
+    border:1px solid #fff;
+    margin-bottom:51.1%;
+    padding: 4% 20%;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.sign-up-btn-field > a {
+    text-decoration: none;
+    color:#fff
+} 
+.sign-up-btn-field:hover {
+    transform: scale(0.9);
+}
+
+

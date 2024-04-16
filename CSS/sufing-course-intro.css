@@ -1,0 +1,194 @@
+.header-title {
+    letter-spacing: 1rem;
+    text-align: center;
+    margin: 15% auto auto 5%; 
+    font-size: 2rem;
+}
+/* course intro field */
+.course-intro-content-container {
+    display: flex;
+    padding: 6% 12%;
+}
+.course-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color:#1D2B53;
+}
+.course-content > p {
+    font-size: 1rem;
+    font-weight: 900;
+    color: #1D2B53;
+}
+.course-price-tag {
+    padding: 0.2% 2%;
+    margin: 10% 60% 0 0;
+    color:#fff;
+    background-color: #26A69A;
+    text-align: center;
+}
+
+.course-content-imgs  {
+    position: relative;
+    width: 50%;
+    padding: 10%;
+    
+}
+.course-content-img-top {
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+    top:7%;
+    left: 8%;
+    
+}
+.course-content-img-container-top img + img {
+    width: 90%;
+    position: absolute;
+    top: 15%;
+    left:20%;
+    z-index: 0;
+}
+
+.course-content-img-botttom {
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+    top:90%;
+    right: 20%;
+}
+.course-content-img-container-bottom img + img {
+    position: absolute;
+    width: 100%;
+    top: 97%;
+    right: 30%;
+    z-index: 2;
+}
+/* mid banner section */
+.mid-title-section {
+    background-image:url(../images/courses-intro-images/mid-titie-bg-img.png) ;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 12%;
+    padding: 4% 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.mid-title {
+    margin: 3% auto auto auto;
+}
+/* course-schedule-section */
+.course-schedule-section {
+    padding: 8% 13%;
+    position: relative;
+}
+.course-schedule-img {
+    width: 78%;
+}
+.course-schedule-img img {
+    width: 100%;
+}
+.course-schedule-content {
+    position: absolute;
+    top:23%;
+    left: 60%;
+    color: #1D2B53;
+    padding: 1% 3% 3% 3%;
+    background-color: #E7E7E7;
+}
+.course-schedule-content h3 {
+    font-size: 2rem;
+    margin: 2% auto;
+}
+.course-schedule-content p {
+    font-size: 0.8rem;
+}
+/* purchase-course-section */
+.purchase-course-section {
+    background-image: url(../images/courses-intro-images/purchase-course-section-bgi.png);
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 13% 0 13% 0;
+}
+.purchase-course-field {
+    width: 55%;
+    margin: auto;
+    padding: 5% 5%;
+    background-color: #fff;
+    flood-color: #26A69A;
+}
+.purchase-course-field h2 {
+    text-align: center;
+    color: #1D2B53;
+    font-size: 1.6rem;
+}
+.reserv-date-time-field {
+    display: flex;
+    margin-bottom: 6%;
+}
+.reserv-course-date-time {
+    color: #1D2B53;
+    width: 90%;
+}
+input[type="date"] {
+    width: 50%;
+    color:#26A69A;
+    border: 1.3px solid #26A69A;
+    border-radius: 4px;
+    padding: 1% 2%;
+    font-family: monospace;
+    outline: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+        filter: invert(1)
+                brightness(50%)
+                sepia(100%)
+                saturate(10000%)
+                hue-rotate(180deg)
+}
+.reserv-course-date-time {
+    padding-top: 1%;
+    color: #1D2B53;
+}
+.reserv-amount-price {
+    display: flex;
+    color: #1D2B53;
+}
+.reserv-amount-price label {
+    width: 50%;
+}
+input[type="number"] {
+    width: 15%;
+    border: 1.3px solid #26A69A;
+    outline: none;
+    border-radius:4px ;
+    color: #26A69A;
+}
+.reserv-amount-price p {
+    margin: 0;
+}
+.reserv-total-price-add-cart-btn {
+    display: flex;
+    margin-top: 5%;
+    color: #1D2B53;
+}
+.reserv-total-price-add-cart-btn span{
+    margin:2.56% 30% 2.56% 20%;
+}
+input[type="submit"] {
+    background-color: #26A69A;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    width: 16%;
+    height: 2.1rem;
+    margin-top: 1.6%;
+    transition: 0.4s;
+}
+input[type="submit"]:hover {
+    transform: scale(0.9);
+} 
+

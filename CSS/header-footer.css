@@ -1,0 +1,123 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.common-navbar {
+    background-color: black;
+    display: flex ;
+    gap:8%;
+    padding:1% 2%;
+    position: relative;
+}
+.logo-img {
+    position: absolute;
+}
+.navbar-items {
+    width: 100%;
+    margin: 0.5% 0;
+    margin-left: 17%;
+    display: flex;
+    gap:2%;
+    justify-content: space-between;
+}
+.drop-down-menu {
+    display: flex;
+    gap: 5%;
+    justify-content: space-around;
+    width: 73%;
+    transition: 0.4s;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 5px;
+    transition: 0.3s;
+}
+.drop-down-menu li {
+    position: relative;
+}
+.target-page {
+    border-bottom: 1px solid #fff;
+}
+.navbar-items:hover .target-page {
+    border-bottom: none;
+}
+ul a:hover {
+    border-bottom: 1px solid #fff;
+}
+.drop-down-menu ul {
+    position: absolute;
+    margin-top:2%;
+    z-index:99;
+    left:-1px;
+    top: 100%;
+    display: none;
+}
+.drop-down-menu li:hover > ul {
+    display: block;
+}
+.user-cart-icon {
+    color: #fff;
+    display: flex;
+    gap: 100%;
+    margin-right: 10%;
+}
+header {
+    background-position:center center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.header-title {
+    color:#fff;
+    font-size:3rem;
+    text-align: center;
+    margin-top: 10%;
+    letter-spacing: 1rem;
+}
+/* footer-section */
+.footer-section {
+    background-color: black;
+    padding:3% 6% 0 6%;
+    text-align: center;
+}
+.footer-logo {
+    margin-bottom: 1%;
+}
+.social-icon i{
+    color:#fff
+}
+.social-icon-subtitle {
+    display: flex;
+   justify-content: space-between;
+    
+}
+.subtitle {
+    width: 40%;
+    margin-right: 27%;
+}
+.subtitle a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 2%;
+    margin:0 1% ;
+}
+.copyright {
+    color: #fff;
+    margin-top: 1%;
+}

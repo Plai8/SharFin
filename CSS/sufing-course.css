@@ -1,0 +1,142 @@
+html {
+    scroll-behavior: smooth;
+}
+main {
+    display: flex;
+    position: relative;
+}
+.course-section-title {
+    position: absolute;
+    font-size: 2.2rem;
+    left: 44%;
+}
+.course-img-field {
+    position: absolute;
+}
+.course-intro-bg-img {
+    width: 50vw;
+    background-position: center center;
+    background-repeat: no-repeat;
+    block-size: cover;
+}
+.course-intro-bg-img img{
+    width: 100%;
+    height: 100%;
+}
+.course-content-container {
+    /* padding: 5% 5% 10% 5%; */
+    width: 50vw;
+}
+.course-content {
+    display: flex;
+    /* gap: 10%; */
+    padding: 1% 2%;
+    color: #1D2B53;
+}
+.course-title{
+    margin: 30% 0 0 30%;
+    font-size: 2.1rem;
+    
+}
+.course-img-field {
+    width: 60vw;
+    position: absolute;
+    top: 20%;
+}
+.course-img-field img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.change-course-page-field {
+    display: flex;
+    gap: 13rem;
+    margin: 0% auto auto 79%;
+}
+.change-course-page-btn {
+    display: flex;
+}
+.change-course-page-btn button {
+    width: 4.5rem;
+    padding: 0.7rem;
+    border:none;
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.4);
+}
+.change-page-left-btn{
+    background-color: #fff;
+    color:#26A69A;
+    transition: 0.3s;
+}
+.change-page-right-btn {
+    color: #fff;
+    background-color:#26A69A;
+    transition: 0.3s;
+}
+.change-page-left-btn:hover {
+    transform:scale(0.9);
+    box-shadow:0 8px 20px rgba(0,0,0,0.4);
+}
+.change-page-right-btn:hover {
+    transform:scale(0.9);
+    box-shadow:0 8px 20px rgba(0,0,0,0.4);
+}
+.learn-more {
+    margin: 0rem 0rem 2rem 25.5rem;
+}
+.learn-more-btn {
+    width: 8rem;
+    padding: 0.7rem;
+    background-color:transparent ;
+    border:0.1rem solid #26A69A;
+    color: #26A69A;
+    cursor:pointer;
+    transition: 0.3s;
+    text-decoration:none;
+}
+.fa-arrow-right {
+    margin-left: 10%;
+}
+
+.learn-more-btn:hover {
+    background-color: #09A99B;
+    transform: scale(0.9);
+    color: #fff;
+}
+.about-course-price {
+    font-size: 1rem;
+    margin:2% 0 0 30% ;
+}
+.about-course-price ~ p{ 
+    font-size: 1rem;
+    margin: 5% 0 24% 30%;
+}
+.course-page-num {
+    writing-mode: vertical-lr;
+    position: relative;
+    padding: 26% 0 0 4%;
+}
+.course-page-num > ul li span {
+    margin-bottom: 20%;
+    color: #26A69A;
+    font: 0.5rem;
+}
+.checked-page {
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+.course-page-num > ul li .page-num-1::after {
+    content: "";
+    padding:5%;
+    top:41%;
+    left: 50%;
+    position: absolute;
+    border-left: 2px solid #26A69A;
+}
+.course-page-num > ul li .page-num-2::after {
+    content: "";
+    padding:5%;
+    top:62%;
+    left: 50%;
+    position: absolute;
+    border-left: 2px solid #26A69A;
+}
