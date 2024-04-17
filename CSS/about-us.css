@@ -1,0 +1,179 @@
+html {
+    width: 100vw;
+}
+.header-title {
+    margin: 10% auto auto auto;
+}
+.our-story-section {
+    padding: 8% 12.5%;
+    display: flex;
+    gap:10%
+}
+.our-story-img {
+    width: 120rem;
+    height: 25rem;
+}
+.our-story-img > img {
+    width: 100%;
+    height: 100%;
+}  
+.our-story-content > h2 {
+    color: #1D2B53;
+    font-size: 1.6rem;
+    margin:0 0 5% 0;
+}
+.our-story-content > p {
+    color: #1D2B53;
+    font-size: 0.85rem;
+    margin:5% 0 0 0;
+}
+.sub-section-img {
+    width: 100vw;
+    height: 270px;
+    background-size: cover;
+    background-position: center center;
+}
+.sub-section-img img{
+    width: 100%;
+} 
+.shop-title {
+    padding: 8% 12.5%;
+    display: flex;
+    gap: 10%;
+}
+.shop-title-content > span {
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 10%;
+}
+.shop-title-content >:nth-child(4) {
+    margin-left: 97%;
+}
+.shop-title-content > h2 {
+    font-size: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    font-weight: 900;
+}
+.shop-title-content > p {
+    color:#A09E9E;
+    font-size: 0.9rem; 
+    font-weight: 900;
+    margin-bottom: 3%;  
+} 
+.shop-title-img {
+    width: 60%;
+    height: 20rem;
+}
+#our-member-section {
+    background-color: #ebebeb;
+    padding:8% 12.5%;;
+    padding-top: 5%;
+}
+#our-member-section > h2 {
+    display: inline-block;
+    margin-left:39% ;
+    margin-bottom: 5%;
+    padding: 0 2%;
+    font-size: 2rem;
+    margin-top:0 ;
+    color: #1D2B53;
+    border-left: 3px solid #26A69A;
+    border-right:  3px solid #26A69A;
+}
+.our-member-card-list {
+    display: flex;
+    gap: 5%;
+    margin-bottom: 7%;
+}
+.our-member-card {
+    width: 31.6667%;
+    height: 400px;
+}
+.our-member-card > img{
+    width: 100%;
+    height: 377px;
+    vertical-align: bottom;
+}
+.our-member-intro {
+    padding: 5% 3%;
+    background-color: #fff;
+    display: none;
+    transition: 0.4s;
+}
+.our-member-card:hover img{
+    transform: scale(1.1);
+}
+.our-member-card:hover .our-member-intro {
+    transform: scale(1.1);
+    display: block;
+}
+.our-member-intro h3 {
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 0 0 2% 0;
+} 
+.our-member-intro p {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #bfbfbf;
+    margin-top: 0%;
+}
+.member-social-icon {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    
+}
+i {
+    color: #e8e8e8;
+    cursor: pointer;
+}
+.recruit-section {
+    width: 905px;
+    height: 550px;
+    background-image: url(../images/about-us-img/recruit-section-bg-img\ .jpg);
+    background-repeat:no-repeat ;
+    margin-left: 353px;
+    margin-right: 0;
+    vertical-align: bottom;
+    position: relative;
+}
+.recruit-top-img {
+    position: absolute;
+    left: -30%;
+    top:-8%;
+}
+.recruit-section > h1 {
+    position: absolute;
+    color: #fff;
+    z-index: 3;
+    font-size: 3rem;
+    top: 19%;
+    left: 5%;
+}
+.recruit-content {
+    position: absolute;
+    right:10%;
+    top:29%;
+    width: 400px;
+    height: 100px;
+    color: #fff;
+}
+.recruit-p {
+    font-size: 0.77rem;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+.recruit-content > a {
+    text-decoration: none;
+    background-color: #26A69A;
+    padding: 3% 20%;
+    color: #fff;
+    display: inline-block;
+    transition: 0.4s;
+}
+.join-us-btn:hover {
+    transform: scale(0.9);
+}
+
